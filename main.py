@@ -11,7 +11,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 import scipy as sp
-import waypoint_class
+import Code.waypoint_class
 
 
 # EDIT HERE
