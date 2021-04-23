@@ -130,7 +130,7 @@ def receive():
             print("Error receiving: " + str(e))
             break
 
-if __name__ == "main":
+if __name__ == "__main__":
 
     # Create and start a listening thread that runs in the background
     # This utilizes our receive functions and will continuously monitor for incoming messages
