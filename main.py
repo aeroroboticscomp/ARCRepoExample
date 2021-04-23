@@ -11,7 +11,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 import scipy as sp
-import Code.waypoint_class
+from Code.waypoint_class import Waypoint
 
 
 # EDIT HERE
@@ -35,7 +35,7 @@ def ex_main_function(waypoints, sock):
     # DRAW plot first
     ##################
     plt.figure()
-    plt.plot([0,0,100,100,0],[0,100,100,0,0,0],'*-')
+    plt.plot([0,0,100,100,0],[0,100,100,0,0],'*-')
     plt.xlabel("X")
     plt.ylabel("Y")
     plt.show()
