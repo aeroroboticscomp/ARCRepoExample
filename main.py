@@ -141,8 +141,8 @@ if __name__ == "__main__":
     waypoints = [] # This will contain an array of Waypoint class objects
 
     # Execute the actual algorithm
-    #ex_main_function(waypoints, sock)
-    main_function(waypoints, sock)
+    ex_main_function(waypoints, sock)
+    #main_function(waypoints, sock)
 
 
 
